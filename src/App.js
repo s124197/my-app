@@ -11,7 +11,8 @@ export default function App() {
     zoom: 10
   })
 return <div>
-  <ReactMapGl {...viewport}>
+  <ReactMapGl {...viewport}
+  mapboxApiAccessToken={process} >
     markers here
   </ReactMapGl>
 </div>

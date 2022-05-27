@@ -1,0 +1,206 @@
+{
+    "currentVersion": 10.61,
+    "id": 57,
+    "name": "velo",
+    "type": "Feature Layer",
+    "description": "Velo is een vorm van openbaar vervoer; het brengt je snel en fileloos overal waar je wil en kan ook goed gecombineerd worden met trein, tram of bus.Het Gemeentelijk autonoom parkeerbedrijf Antwerpen (GAPA) staat in de de exploitatie van het VELO-systeem. Het Velo-systeem dient om korte, functionele verplaatsingen te maken binnen de stad. Zo kunnen zoveel mogelijk mensen gebruik maken van de fietsen. Vandaar dat het eerste halfuur van elke rit gratis is. Na dit halfuur worden extra kosten in rekening gebracht.De fietsstations liggen in het gebied tussen Singel en Schelde en op Linkeroever. De locaties liggen op maximaal 400 meter van elkaar. Daardoor is er normaal altijd een station op wandelafstand. Je vindt ze zeker in de omgeving van mobiliteitsknooppunten (tram- en bushaltes, treinstations, parkings) en belangrijke attractiepolen. ",
+    "geometryType": "esriGeometryPoint",
+    "sourceSpatialReference": {
+     "wkid": 31370,
+     "latestWkid": 31370
+    },
+    "copyrightText": "GAPA",
+    "parentLayer": null,
+    "subLayers": [],
+    "minScale": 0,
+    "maxScale": 0,
+    "drawingInfo": {
+     "renderer": {
+      "type": "simple",
+      "symbol": {
+       "type": "esriSMS",
+       "style": "esriSMSCircle",
+       "color": [
+        50,
+        0,
+        143,
+        255
+       ],
+       "size": 4,
+       "angle": 0,
+       "xoffset": 0,
+       "yoffset": 0,
+       "outline": {
+        "color": [
+         0,
+         0,
+         0,
+         255
+        ],
+        "width": 1
+       }
+      },
+      "label": "",
+      "description": ""
+     },
+     "transparency": 0,
+     "labelingInfo": null
+    },
+    "defaultVisibility": false,
+    "extent": {
+     "xmin": 482241.19351033,
+     "ymin": 6650313.622518609,
+     "xmax": 499049.3050008698,
+     "ymax": 6667906.326961298,
+     "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857
+     }
+    },
+    "hasAttachments": false,
+    "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+    "displayField": "Objecttype",
+    "typeIdField": null,
+    "subtypeFieldName": null,
+    "subtypeField": null,
+    "defaultSubtypeCode": null,
+    "fields": [
+     {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "domain": null
+     },
+     {
+      "name": "SHAPE",
+      "type": "esriFieldTypeGeometry",
+      "alias": "SHAPE",
+      "domain": null
+     },
+     {
+      "name": "Objecttype",
+      "type": "esriFieldTypeString",
+      "alias": "Objecttype",
+      "length": 30,
+      "domain": null
+     },
+     {
+      "name": "Type_velo",
+      "type": "esriFieldTypeString",
+      "alias": "Type_velo",
+      "length": 50,
+      "domain": null
+     },
+     {
+      "name": "Ligging",
+      "type": "esriFieldTypeString",
+      "alias": "Ligging",
+      "length": 20,
+      "domain": null
+     },
+     {
+      "name": "Straatnaam",
+      "type": "esriFieldTypeString",
+      "alias": "Straatnaam",
+      "length": 100,
+      "domain": null
+     },
+     {
+      "name": "Huisnummer",
+      "type": "esriFieldTypeString",
+      "alias": "Huisnummer",
+      "length": 50,
+      "domain": null
+     },
+     {
+      "name": "Aanvulling",
+      "type": "esriFieldTypeString",
+      "alias": "Aanvulling",
+      "length": 80,
+      "domain": null
+     },
+     {
+      "name": "District",
+      "type": "esriFieldTypeString",
+      "alias": "District",
+      "length": 30,
+      "domain": null
+     },
+     {
+      "name": "Postcode",
+      "type": "esriFieldTypeString",
+      "alias": "Postcode",
+      "length": 10,
+      "domain": null
+     },
+     {
+      "name": "Objectcode",
+      "type": "esriFieldTypeString",
+      "alias": "Objectcode",
+      "length": 20,
+      "domain": null
+     },
+     {
+      "name": "Gebruik",
+      "type": "esriFieldTypeString",
+      "alias": "Gebruik",
+      "length": 20,
+      "domain": null
+     },
+     {
+      "name": "Aantal_plaatsen",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Aantal_plaatsen",
+      "domain": null
+     }
+    ],
+    "geometryField": {
+     "name": "SHAPE",
+     "type": "esriFieldTypeGeometry",
+     "alias": "SHAPE"
+    },
+    "indexes": [
+     {
+      "name": "FDO_OBJECTID",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+     },
+     {
+      "name": "FDO_SHAPE",
+      "fields": "SHAPE",
+      "isAscending": true,
+      "isUnique": false,
+      "description": ""
+     }
+    ],
+    "subtypes": [],
+    "relationships": [],
+    "canModifyLayer": false,
+    "canScaleSymbols": false,
+    "hasLabels": false,
+    "capabilities": "Map,Query,Data",
+    "maxRecordCount": 2000,
+    "supportsStatistics": true,
+    "supportsAdvancedQueries": true,
+    "supportedQueryFormats": "JSON, AMF, geoJSON",
+    "isDataVersioned": false,
+    "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+    "useStandardizedQueries": true,
+    "advancedQueryCapabilities": {
+     "useStandardizedQueries": true,
+     "supportsStatistics": true,
+     "supportsHavingClause": true,
+     "supportsCountDistinct": true,
+     "supportsOrderBy": true,
+     "supportsDistinct": true,
+     "supportsPagination": true,
+     "supportsTrueCurve": true,
+     "supportsReturningQueryExtent": true,
+     "supportsQueryWithDistance": true,
+     "supportsSqlExpression": true
+    },
+    "supportsDatumTransformation": true,
+    "supportsCoordinatesQuantization": true
+   }
